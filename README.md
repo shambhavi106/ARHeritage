@@ -1,50 +1,42 @@
-# Welcome to your Expo app 👋
+# AR Heritage Explorer
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+An Augmented Reality mobile application that allows users to visualize and explore historical monuments in 3D directly in their real-world environment.
 
-## Get started
+## Overview
 
-1. Install dependencies
+The application enhances cultural learning by placing interactive 3D models of heritage sites into the user's surroundings using AR technology.
+Users can walk around monuments, inspect architectural details, and learn historical context interactively.
 
-   ```bash
-   npm install
-   ```
+## Features
 
-2. Start the app
+* Real-time Augmented Reality placement
+* Interactive 3D monument visualization
+* Educational information overlay
+* Mobile device motion tracking
+* Immersive learning experience
 
-   ```bash
-   npx expo start
-   ```
+## Tech Stack
 
-In the output, you'll find options to open the app in a
+* React Native / Expo
+* AR rendering engine
+* 3D GLB models
+* JavaScript
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## How It Works
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+1. Launch app
+2. Scan environment surface
+3. Place monument in real space
+4. Walk around and explore
+5. View historical information
 
-## Get a fresh project
+## Educational Purpose
 
-When you're ready, run:
+Designed to make heritage education more engaging and accessible by combining technology with cultural learning.
 
-```bash
-npm run reset-project
-```
+## Future Enhancements
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+* Multiple monument library
+* Guided audio tours
+* Multiplayer exploration mode
+* Cloud content updates
